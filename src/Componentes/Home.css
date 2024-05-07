@@ -1,0 +1,61 @@
+.logo {
+    background-color: #FFD700;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 10%;
+}
+
+.home {
+    padding: 60%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.azul, .amarelo, .laranja,.oferecep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    height: 300px;
+}
+
+.divona{
+    background-color: #EEEBEB;
+}
+
+.metodo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 150px 10px 150px;
+}
+
+.coisas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.presencial{
+    border: 3px solid #FFD700;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+}
+
+.presencial p{
+    text-align: center;
+}
